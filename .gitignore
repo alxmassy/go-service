@@ -1,0 +1,41 @@
+# ===== Go build artifacts =====
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ===== Go workspace =====
+go.work
+go.work.sum
+
+# ===== Environment variables =====
+.env
+.env.*
+*.env
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Coverage =====
+coverage.out
+
+# ===== Local database / runtime files =====
+*.sqlite
+*.db
+postgres-data/
